@@ -1,0 +1,24 @@
+/* Pretty basic, tried leaving most of the stuff up to Bootstrap itself to figure out how it works */
+
+.gradient-custom {
+    /* fallback for old browsers */
+    background: #51ff6b;
+  
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: -webkit-linear-gradient(to right, #160C28, #EFCB68);
+  
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: linear-gradient(to right, #160C28, #EFCB68); 
+}
+
+nav a {
+    text-shadow: 3px 3px 2px rgba(0, 0, 0, 0.15);
+}
+
+footer {
+    color: white;
+}
+
+.text-body {
+    color: white;
+}
